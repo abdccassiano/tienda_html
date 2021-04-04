@@ -15,6 +15,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+img {
+    max-width: 100%;
+}
+
 header {
     width: 100%;
     height: 130px;
@@ -27,9 +31,10 @@ header img,header h1,header ul {
     vertical-align: middle;
 }
 
-header ul li img {
+header ul li img, footer ul li img {
     width: 25px;
     height: 25px;
+    vertical-align: middle;
 }
 header h1 {
     margin: 0 25% 0 25%;
@@ -70,7 +75,6 @@ header div:last-child ul li{
 main nav, main section{
     display: inline-block;
     vertical-align: top;
-
 }
 
 main nav ul {
@@ -79,7 +83,7 @@ main nav ul {
 main nav {
     background-color: #fafafa;
     
-    height: 25em;
+    height: 35em;
 }
 
 main nav ul li{
@@ -100,6 +104,7 @@ main nav ul img {
 main section img {
     width: 250px;
     height: 250px;
+    max-width: 100%;
 }
 
 main section p {
@@ -114,5 +119,25 @@ main section article {
 }
 
 footer {
-    
+    background-color: #503a4f;
+    padding: 10px;
+    color: #fff;
+    height: 3em;
+}
+
+footer div {
+    display: inline-block;
+}
+
+footer div:first-child {
+    float: left;
+}
+
+footer div:last-child {
+    float: right;
+}
+
+footer div ul li {
+    display: inline-block;
+    margin: 0 5px 0 5px;
 }
