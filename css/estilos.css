@@ -1,0 +1,73 @@
+* {
+    /*******1 rem = 10px******/
+    /******Body font-size = (62.5/100)*16 = 10px******/
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    width: 100%;
+    border: 1px solid red;
+    height: 125px;
+    color: #fff;
+    background-color: #503a4f;
+    text-align: center;
+}
+header img,h1,ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header ul li img {
+    width: 25px;
+    height: 25px;
+}
+header h1 {
+    margin: 0 25% 0 25%;
+}
+
+header img {
+    
+}
+
+header ul {
+    
+
+}
+
+header ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px;
+    
+}
+
+header div:first-child {
+    
+}
+
+header div + div {
+    background-color: yellow;
+}
+
+header div:last-child {
+    
+}
+
+header div:last-child ul li{
+    background: #ff0000;
+    display: inline-block;
+  }
+
+main {
+    border: 1px solid green;
+}
+
+footer {
+    border: 1px solid brown;
+}
