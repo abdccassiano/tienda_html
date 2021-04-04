@@ -10,15 +10,19 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
     width: 100%;
-    border: 1px solid red;
-    height: 125px;
+    height: 130px;
     color: #fff;
     background-color: #503a4f;
     text-align: center;
 }
-header img,h1,ul {
+header img,header h1,header ul {
     display: inline-block;
     vertical-align: middle;
 }
@@ -52,7 +56,7 @@ header div:first-child {
 }
 
 header div + div {
-    background-color: yellow;
+    
 }
 
 header div:last-child {
@@ -60,14 +64,55 @@ header div:last-child {
 }
 
 header div:last-child ul li{
-    background: #ff0000;
     display: inline-block;
-  }
+}
 
-main {
-    border: 1px solid green;
+main nav, main section{
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+main nav ul {
+}
+
+main nav {
+    background-color: #fafafa;
+    
+    height: 25em;
+}
+
+main nav ul li{
+    display: block;
+    margin: 15px 35px 10px 35px;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+main nav ul img {
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+}
+
+main section img {
+    width: 250px;
+    height: 250px;
+}
+
+main section p {
+    margin: 10px;
+}
+
+main section article {
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    margin: 15px 25px 10px 25px;
 }
 
 footer {
-    border: 1px solid brown;
+    
 }
